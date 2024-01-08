@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    width: calc(100% - 120px  );
+    margin: auto ;}
+
+header{
+    display: flex;
+    align-items: center;
+  
+    background-color: #eee;
+    
+    width: 100%;
+    top:0;
+    z-index: 9;
+}
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+ }
+ header nav ul li {
+    list-style-type: none;
+ }
+ .row{
+    gap: 10px;
+    display:flex;
+ }
+  
+
+ header .auth {
+    display: flex;
+    flex-wrap:nowrap ;
+    gap:10px;
+    justify-content: end;
+    
+ }
+ .row{
+    display: flex;
+   
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+
+}
+.container .row .auth{
+    justify-items: end;
+}
+.login{
+    color:white;
+    size: 2px;
+    box-sizing: border-box;
+    background-color:orange;
+    border-radius: 4px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+}
+
+
+
+firstbox{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+        width: 965px;
+height:337px;
+top: 274px;
+left: 479px;
+gap: 60px;
+
+
+}
+main{
+    background-color: #eee;
+}
+
+firstbox .logo{
+    display:flex;
+    flex-wrap: wrap;
+}
+firstbox img{
+    box-sizing: border-box;
+    background-color:orange;
+    border-color: black;
+    
+}
+.center0{
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes .explore{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:rgb(245, 165, 17);
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+
+}
+.boxes .view{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:white;
+    padding: 5px;
+    font-size: 10px;
+
+}
+.thirdbox{
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+secondbox ul {
+justify-content: space-evenly;
+gap: 20px;
+display:flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 50px;
+}
+.container .course{
+    padding:40px 40px;
+}
+ .course .course-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.cources-img{
+row-gap: 10px;
+background-color: white;
+margin: 10px;
+    width: 40%;}
+    .coursei{
+        display: flex;
+    }
+    .button{
+    padding-left:130px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    
+    }
+  .cources-img  p {
+    padding-left: 10px;
+    padding-bottom: 17px;
+  }
+  .cources-img h2 {
+   
+    padding-bottom: 17px;
+  }
+
+    
+    .cources-img h3{
+        padding-left: 200px;
+
+    }
+    .describtion{
+    width: 290px;
+ 
+    }
+    .u {
+
+    display: flex;
+    align-content: space-around;
+    gap:7px 7px;
+    padding-bottom: 20px;
+    }
+    price{
+        display: flex;
+        gap: 30px;
+    }
+    price .right{
+        padding:50px;
+        align-items: center;
+        background-color: white;
+    }
+   price .left{
+    padding:50px;
+    background-color: white;
+   }
+   .mo{
+    display: flex;
+   }
+   .align{
+    display: flex;
+    gap: 7px;
+   }
+footer .row{
+display: flex;
+justify-content: space-around;
+}
+.ls{
+    display: flex;
+}
+
+.right-side{
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-content: space-around;
+}
+.address{
+    padding: 10px;
+}
+.address ul li{
+    gap: 5px;
+    color: black;
+}
+.month{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:rgb(245, 165, 17);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.year{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:white;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.ins{
+    display: flex;
+ color: black;
+    gap: 600px;
+    padding-bottom: 20px;
+   
+
+}
+.Testimonials{
+    gap: 20px;
+    padding-bottom: 80px;
+}
+.box{
+    padding-bottom: 50px;
+}
+.sarah{
+    background-color: white;
+padding: 20px 20px ;    
+padding-left: 10px;
+margin: 15px;
+}
+.line{
+    display: flex;
+    align-items: flex-end;
+}
+.line h5{
+   
+    border-radius: 5px;
+  box-shadow: inset;
+    font-Size : 18.sp;
+    line-Height : 27.sp;
+
+    text-Align:left;
+    
+  padding-left: 250px;
+}
+.container1 {
+    
+        display: flex;
+    
+}
+.numbers{
+    display: flex;
+    padding-left: 20px;
+}
+.number{
+    width: 500px;
+    background-color: white;
+  gap: 20px;
+  margin:10px 10px 10px 10px;
+  padding: 15px;
+}
+.number h1{
+ padding-left: 300px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.benefits{
+    width: 90%;
+}
+.Testimonials{
+    padding-top: 70px;
+}
